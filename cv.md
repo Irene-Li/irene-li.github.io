@@ -3,10 +3,12 @@ layout: page
 title: CV
 ---
 
----
+- **2023 - present** 
+_Postdoctoral researcher at Institute of Science and Technology Austria_ 
 
+	Working with Edouard Hannezo as an IST-Bridge fellow. Working on mechano-chemical pattern formation in biological systems. 
 
-- **2021 - present** 
+- **2021 - 2023** 
 _Research Associate at the University of Cambridge_ 
 
 	Working under Prof. Ben Simons at the Department of Applied Mathematics and Theoretical Physics. Working on emergent phenomena in biological systems. 
@@ -27,4 +29,6 @@ _BSci in Physics at Trinity College, University of Cambridge_
 	
 	First Class in all three years.
 
+
+For further information, check [my full CV](/assets/CV.pdf)
 
