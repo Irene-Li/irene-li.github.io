@@ -2,6 +2,23 @@
 layout: default
 ---
 <h1>{{ page.title }}</h1>
-<p>{{ page.date | date_to_string }} - {{ page.author }}</p>
+<p class="p-meta">{{ page.date | date_to_string }}{% if page.author %} &middot; {{ page.author }}{% endif %}</p>
+
+{% if page.image %}
+<img class="post-hero" src="{{ page.image | relative_url }}" alt="{{ page.title }}">
+{% endif %}
+
+{% if page.summary %}
+<div class="post-summary">
+  <span class="summary-label">Summary</span>
+  {{ page.summary | markdownify }}
+</div>
+{% endif %}
 
 {{ content }}
+
+{% if page.paper_url %}
+<p class="paper-link">
+  <a href="{{ page.paper_url }}">{{ page.paper_title | default: "Read the paper" }} &rarr;</a>
+</p>
+{% endif %}

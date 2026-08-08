@@ -3,39 +3,40 @@ layout: page
 title: Publications
 ---
 
-For the latest and more complete set of publications, please see my [google scholar]. 
+Lead theory author on all papers except the last. Authors marked \* contributed
+equally. For the most up-to-date list, see my
+[Google Scholar](https://scholar.google.com/citations?user=Ezcv1xcAAAAJ&hl=en)
+profile.
+{:.pub-note}
 
-__PhD__ 
+## 2026
 
-- [my paper on liquid state theory of AOUPs]: 
+- Mishra, N., **Li, Y. I.**, Hannezo, E., Heisenberg, C.-P. (2026). Geometry-driven asymmetric cell divisions pattern cell cycles and zygotic genome activation in the zebrafish embryo. *Nature Physics.*
 
-	Li, Y. I., Garcia-Millan, R., Cates, M. E., Fodor, E., Towards a liquid-state theory for active matter. Europhysics Letters, 142 (5), 57004
+## 2025
 
-- [my paper on Model AB+]:
+- Tong, X.\*, **Li, Y. I.**\*, Schelle, J., Hannezo, E., Heisenberg, C.-P. (2025). Non-canonical cytokinesis driven by mechanical uncoupling via nematic flows and adhesion-based invagination. *bioRxiv* — preprint.
+- van Oostrom, M. V., **Li, Y. I.**, … Simons, B. D., Sonnen, I. (2025). Scaling of mouse somitogenesis by coupling of cell cycle to segmentation clock oscillations. *bioRxiv* — preprint.
+- Martinet, Q.\*, **Li, Y. I.**\*, Aubret, A., Hannezo, E., Palacci, J. (2025). [Emergent dynamics of active elastic microbeams](https://doi.org/10.1103/rjk2-q2wh). *Physical Review X, 15, 041017.*
 
-	Li, Y. I., Cates, M. E. (2021). Hierarchical microphase separation in non-conserved active mixtures. The European Physical Journal E, 44(9), 1-8.
+## 2024
 
+- Sato, T., **Li, Y. I.**, … Simons, B. D., Yoshida, S. (2024). Self-organization of the spermatogenic wave coordinates sustained sperm production in the mouse testis. *bioRxiv* — preprint.
 
-- [my paper on entropy production rate]: 
+## 2023
 
-	Li, Y.I. and Cates, M.E., (2021). Steady state entropy production rate for scalar Langevin field theories. Journal of Statistical Mechanics: Theory and Experiment, 2021(1), 013211.
+- **Li, Y. I.**, Garcia-Millan, R., Cates, M. E., Fodor, É. (2023). [Towards a liquid-state theory for active matter](https://iopscience.iop.org/article/10.1209/0295-5075/acd79c/meta). *Europhysics Letters, 142(5), 57004.*
 
+## 2021
 
-- [my paper on Model AB]: 
+- **Li, Y. I.**, Cates, M. E. (2021). [Hierarchical microphase separation in non-conserved active mixtures](https://link.springer.com/article/10.1140/epje/s10189-021-00113-x). *The European Physical Journal E, 44(9), 1–8.*
+- **Li, Y. I.**, … Jack, R. L. (2021). Efficient Bayesian inference of fully stochastic epidemiological models with applications to COVID-19. *Royal Society Open Science.*
 
-	Li, Y. I., Cates, M. E. (2020). Non-equilibrium phase separation with reactions: a canon- ical model and its behaviour. Journal of Statistical Mechanics: Theory and Experiment, 2020(5), 053206.
+## 2020
 
+- **Li, Y. I.**, Cates, M. E. (2020). [Steady-state entropy production rate for scalar Langevin field theories](https://iopscience.iop.org/article/10.1088/1742-5468/abd311/meta). *Journal of Statistical Mechanics: Theory and Experiment, 013211.*
+- **Li, Y. I.**, Cates, M. E. (2020). [Non-equilibrium phase separation with reactions: a canonical model and its behaviour](https://iopscience.iop.org/article/10.1088/1742-5468/ab7e2d/meta). *Journal of Statistical Mechanics: Theory and Experiment, 053206.*
 
+## 2018
 
-__Summer project, 2016__
-
-During my third year, I worked on using Density Functional Theory to calculate [first-principles momentum distributions and vibrationally corrected permittivities of hexagonal and cubic ice], under the supervision of Dr. Engel and Prof. Needs. 
-
-
-[First-principles momentum distributions and vibrationally corrected permittivities of hexagonal and cubic ice]: https://journals.aps.org/prb/abstract/10.1103/PhysRevB.97.054312
-[my paper on Model AB]: https://iopscience-iop-org.ezp.lib.cam.ac.uk/article/10.1088/1742-5468/ab7e2d/meta
-[my paper on Model AB+]: https://link.springer.com/article/10.1140/epje/s10189-021-00113-x
-[my paper on entropy production rate]: https://iopscience.iop.org/article/10.1088/1742-5468/abd311/meta 
-[google scholar]: https://scholar.google.com/citations?user=Ezcv1xcAAAAJ&hl=en
-[my paper on liquid state theory of AOUPs]: https://iopscience.iop.org/article/10.1209/0295-5075/acd79c/meta
-
+- Engel, E. A., **Li, Y. I.**, Needs, R. J. (2018). [First-principles momentum distributions and vibrationally corrected permittivities of hexagonal and cubic ice](https://journals.aps.org/prb/abstract/10.1103/PhysRevB.97.054312). *Physical Review B, 97, 054312.*

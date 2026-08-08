@@ -1,0 +1,32 @@
+# Broad research interests shown on the HOME page as alternating text / image blocks.
+# Text is taken (verbatim, abridged) from the Hubrecht group page.
+# To edit: change the text, or swap the image file in /assets/images/.
+
+- title: Oscillatory dynamics
+  image: /assets/images/spermatogenesis.png
+  body: >-
+    Biological oscillations, such as segmentation clocks, calcium waves, and cell
+    cycles, are a distinctive and deeply underexplored class of non-equilibrium
+    phenomena: unlike physical waves, they carry no energy of their own but are
+    continuously driven by local energy input.
+
+- title: Morphogenesis of intestinal organoids
+  image: /assets/images/organoids.png
+  body: >-
+    We use intestinal organoids as a model system to ask how a tissue
+    collectively builds its own three-dimensional shape. We are developing
+    computational methods, based on spherical-harmonic decomposition and
+    heat-kernel curvature, to quantify organoid geometry systematically across
+    large multiplexed datasets and to correlate shape with cell identity over
+    time.
+
+- title: Cytoskeleton and active matter
+  image: /assets/images/cytokinesis.png
+  body: >-
+    Tissues are shaped by the forces that cells generate through their
+    cytoskeleton, a network of filaments and motors that is itself a striking
+    example of active matter, operating far from thermal equilibrium. We use
+    mesoscopic active matter theories to understand how cytoskeletal
+    self-organization produces coherent mechanical behavior, from the actin flows
+    that facilitate division of large embryonic cells, to the emergent elasticity
+    of assemblies of active filaments and colloids.

@@ -1,6 +1,9 @@
-- name: About
-  link: /about.html
-- name: Blog
-  link: /blog.html
-- name: Research
+# Top navigation bar. Edit this list to add / remove / reorder tabs.
+- name: Home
+  link: /
+- name: Research projects
   link: /research.html
+- name: People
+  link: /people.html
+- name: Publications
+  link: /publications.html

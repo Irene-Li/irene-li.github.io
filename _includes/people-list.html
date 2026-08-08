@@ -1,0 +1,22 @@
+{%- comment -%}
+Renders the people cards from _data/people.yml. Edit that data file to add or
+change members — you never need to touch this file.
+{%- endcomment -%}
+{%- for person in site.data.people -%}
+<div class="person">
+  {%- if person.photo -%}
+  <img src="{{ person.photo | relative_url }}" alt="{{ person.name }}">
+  {%- endif -%}
+  <div class="p-body">
+    <h3>{{ person.name }}</h3>
+    <p class="p-role">{{ person.role }}</p>
+    <p>{{ person.bio | markdownify | strip_html | strip_newlines }}</p>
+    <p class="p-links">
+      {%- if person.email -%}<a href="mailto:{{ person.email }}">{{ person.email }}</a>{%- endif -%}
+      {%- if person.scholar -%} &middot; <a href="{{ person.scholar }}">Google Scholar</a>{%- endif -%}
+      {%- if person.bluesky -%} &middot; <a href="{{ person.bluesky }}" aria-label="Bluesky" title="Bluesky">{% include icon-bluesky.html %}</a>{%- endif -%}
+      {%- if person.cv -%} &middot; <a href="{{ person.cv | relative_url }}">CV (PDF)</a>{%- endif -%}
+    </p>
+  </div>
+</div>
+{%- endfor -%}

@@ -1,0 +1,17 @@
+{%- comment -%}
+Renders the homepage "Research interests" blocks from _data/interests.yml.
+Edit the text / images in that data file — you never need to touch this file.
+{%- endcomment -%}
+<div class="section-label">Research interests</div>
+
+{%- for interest in site.data.interests -%}
+<div class="research-row">
+  <div class="r-text">
+    <h3>{{ interest.title }}</h3>
+    <p>{{ interest.body | markdownify | strip_html | strip_newlines }}</p>
+  </div>
+  <div class="r-image">
+    <img src="{{ interest.image | relative_url }}" alt="{{ interest.title }}">
+  </div>
+</div>
+{%- endfor -%}

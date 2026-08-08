@@ -1,22 +1,11 @@
 ---
-layout: home
+layout: default
+title: Home
 ---
 
-<img style="float: right;" src="/assets/images/me.jpeg" width="250">
+We are a **theoretical biophysics** group at the Hubrecht Institute. We study how cells use temporal and mechanical dynamics to sense and shape tissue geometry during development.
+{:.lede}
 
+Biological systems operate far from equilibrium, continuously consuming energy to generate the oscillations, flows and shape changes that drive development. Using the tools of non-equilibrium statistical physics, and working hand in hand with experimental collaborators, we build minimal, physically grounded theories that connect molecular activity to the emergent behaviour of cells and tissues.
 
-__Postdoctoral researcher__
-
-Supervisor: [Prof. Edouard Hannezo] <br/>
-Group: Hannezo Group
-
-[Institute of Science and Technology Austria], <br/>
-Am Campus 1 <br/>
-3400 Klosterneuburg <br/>
-Austria
-
-[Prof. Edouard Hannezo]: https://hannezo.pages.ist.ac.at
-[Institute of Science and Technology Austria]: https://ist.ac.at/home
-
-<br/>
-<br/>
+{% include research-interests.html %}

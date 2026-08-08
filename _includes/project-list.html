@@ -1,0 +1,20 @@
+{%- comment -%}
+Renders the research-projects list from posts, ordered by the `order:` field in
+each post's front matter. The card text is the post's `summary:` field.
+Edit the posts in _posts/ — you never need to touch this file.
+{%- endcomment -%}
+{%- assign research_posts = site.posts | where_exp: "post", "post.image" | sort: "order" -%}
+{%- for post in research_posts -%}
+<div class="research-row">
+  <div class="r-text">
+    <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
+    <p>{{ post.summary | markdownify | strip_html | strip_newlines }}</p>
+    <a class="r-more" href="{{ post.url | relative_url }}">Read more &rarr;</a>
+  </div>
+  <div class="r-image">
+    <a href="{{ post.url | relative_url }}">
+      <img src="{{ post.image | relative_url }}" alt="{{ post.title }}">
+    </a>
+  </div>
+</div>
+{%- endfor -%}

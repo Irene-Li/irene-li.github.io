@@ -1,0 +1,19 @@
+# Group members. Add a new person by copying a block below.
+# `photo`, `cv` are paths to files in /assets/. Any of email/scholar/bluesky/cv
+# can be left blank and the link is simply hidden.
+
+- name: Yuting Irene Li
+  role: Group Leader
+  photo: /assets/images/me.jpeg
+  email: y.li@hubrecht.eu
+  scholar: "https://scholar.google.com/citations?user=Ezcv1xcAAAAJ&hl=en"
+  bluesky: "https://bsky.app/profile/irene-yuting-li.bsky.social"
+  cv: /assets/CV.pdf
+  bio: >-
+    Irene is a theoretical physicist trained in the statistical physics and
+    thermodynamics of active matter. She did her PhD with Prof. Mike Cates in the
+    Soft Matter group at DAMTP, University of Cambridge, followed by postdoctoral
+    work with Prof. Ben Simons (Cambridge) and Prof. Edouard Hannezo (ISTA). She
+    holds an IST-Bridge fellowship (part of the Marie Skłodowska-Curie COFUND
+    action) and received the Royal Society RAMP Early Career Investigator Award
+    for her contribution to pandemic modelling.
