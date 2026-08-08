@@ -5,7 +5,7 @@ Edit the posts in _posts/ — you never need to touch this file.
 {%- endcomment -%}
 {%- assign research_posts = site.posts | where_exp: "post", "post.image" -%}
 {%- for post in research_posts -%}
-<div class="research-row">
+<div class="research-row project-row">
   <div class="r-text">
     <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
     <p>{{ post.summary | markdownify | strip_html | strip_newlines }}</p>
