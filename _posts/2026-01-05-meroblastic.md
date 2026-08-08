@@ -2,7 +2,6 @@
 layout: post
 author: Irene
 title: Meroblastic cleavage
-order: 2
 image: /assets/images/post-meroblastic.png
 paper_url: "https://www.biorxiv.org/content/10.1101/2025.02.03.636134v1"
 paper_title: "Read the paper — Mishra et al., Geometry-driven asymmetric cell divisions (Nature Physics)"

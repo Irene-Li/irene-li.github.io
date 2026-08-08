@@ -2,7 +2,6 @@
 layout: post
 author: Irene
 title: Active rods
-order: 3
 image: /assets/images/post-active-rods.png
 paper_url: "https://doi.org/10.1103/rjk2-q2wh"
 paper_title: "Read the paper — Martinet et al., Emergent Dynamics of Active Elastic Microbeams (Phys. Rev. X)"

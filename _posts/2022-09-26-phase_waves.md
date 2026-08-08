@@ -2,7 +2,6 @@
 layout: post
 author: Irene
 title: Spermatogenesis
-order: 4
 image: /assets/images/post-phase-waves.png
 summary: >-
   Retinoic-acid signalling in the mouse testis oscillates and travels as phase waves along the seminiferous tubule. We build a time-delayed model of the local cycle and a Kuramoto-type spatial model, showing that the waves emerge naturally from coupled cyclic dynamics.

@@ -1,9 +1,9 @@
 {%- comment -%}
-Renders the research-projects list from posts, ordered by the `order:` field in
-each post's front matter. The card text is the post's `summary:` field.
+Renders the research-projects list from posts, newest first (by the date in each
+post's filename / front matter). The card text is the post's `summary:` field.
 Edit the posts in _posts/ — you never need to touch this file.
 {%- endcomment -%}
-{%- assign research_posts = site.posts | where_exp: "post", "post.image" | sort: "order" -%}
+{%- assign research_posts = site.posts | where_exp: "post", "post.image" -%}
 {%- for post in research_posts -%}
 <div class="research-row">
   <div class="r-text">

@@ -7,9 +7,9 @@ $base-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
   Helvetica, Arial, sans-serif !default;
 $text-color:       #1b1b1b !default;
 $background-color: #ffffff !default;
-$brand-color:      #3d6070 !default;   // one restrained slate accent
-$link-base-color:  #3d6070 !default;
-$link-visited-color: #3d6070 !default;
+$brand-color:      #3d6070 !default;   // slate — used for accents (labels, borders, CTAs)
+$link-base-color:  #587178 !default;   // teal (from the banner) — all clickable links
+$link-visited-color: #587178 !default;
 $grey-color:       #6a6a6a !default;
 $grey-color-light: #ededed !default;
 $content-width:    920px !default;
@@ -65,8 +65,28 @@ body {
 
 h1, h2, h3 { font-weight: 600; letter-spacing: -0.01em; }
 
-a { text-decoration: none; }
-a:hover { text-decoration: underline; }
+// Clickable links: distinct colour + a faint underline in the same colour
+// (full-strength on hover). $link-base-color (set at the top) controls the hue.
+a,
+a:visited {
+  color: $link-base-color;
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 0.15em;
+  text-decoration-color: color-mix(in srgb, currentColor 35%, transparent);
+}
+a:hover {
+  color: $link-base-color;
+  text-decoration-color: currentColor;
+}
+
+// Structural links that shouldn't be underlined (menu, logo, icon links).
+.site-title,
+.site-nav .page-link,
+.social-media-list a,
+.p-links a {
+  text-decoration: none;
+}
 
 // ---- Homepage intro ---------------------------------------------------------
 .lede {
@@ -110,7 +130,7 @@ a:hover { text-decoration: underline; }
 .research-row .r-more {
   font-size: 0.9rem;
   font-weight: 600;
-  color: $brand-color;
+  color: $link-base-color;
 }
 
 @media (max-width: $on-palm) {
@@ -150,7 +170,19 @@ a:hover { text-decoration: underline; }
   border-top: 1px solid $grey-color-light;
   font-weight: 600;
 }
-.paper-link a { color: $brand-color; }
+.paper-link a { color: $link-base-color; }
+
+// Footnotes (kramdown wraps them in .footnotes at the end of the post)
+.footnotes {
+  margin-top: 2.6rem;
+  padding-top: 1rem;
+  border-top: 1px solid $grey-color-light;
+  font-size: 0.8rem;
+  line-height: 1.5;
+  color: $grey-color;
+}
+.footnotes ol { margin-bottom: 0; }
+.footnotes p { margin-bottom: 0.4rem; }
 
 // ---- Post / research list ---------------------------------------------------
 .project-list { list-style: none; margin-left: 0; padding-left: 0; }
