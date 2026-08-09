@@ -119,6 +119,10 @@ a:hover {
 .research-row .r-text  { flex: 1 1 50%; }
 .research-row .r-image { flex: 1 1 50%; }
 
+// Homepage research-interest rows: give the text a bit more width than the figure.
+.interest-row .r-text  { flex: 1 1 58%; }
+.interest-row .r-image { flex: 1 1 42%; }
+
 .research-row .r-image img {
   width: 100%;
   height: auto;
@@ -168,10 +172,12 @@ a:hover {
 .post-summary p { margin: 0; font-size: 1.05rem; color: #2b2b2b; }
 
 .post-hero {
-  width: 100%;
+  width: auto;
+  max-width: 100%;
+  max-height: 250px;      // height limit for the top image (aspect ratio kept)
   height: auto;
   border-radius: 4px;
-  margin: 0.6rem 0 1.8rem;
+  margin: 0.6rem auto 1.8rem;   // auto centres it when narrower than the column
   display: block;
 }
 .paper-link {

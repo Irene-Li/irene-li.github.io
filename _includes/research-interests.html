@@ -5,7 +5,7 @@ Edit the text / images in that data file — you never need to touch this file.
 <div class="section-label">Research interests</div>
 
 {%- for interest in site.data.interests -%}
-<div class="research-row">
+<div class="research-row interest-row">
   <div class="r-text">
     <h3>{{ interest.title }}</h3>
     <p>{{ interest.body | markdownify | strip_html | strip_newlines }}</p>

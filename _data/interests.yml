@@ -5,28 +5,14 @@
 - title: Oscillatory dynamics
   image: /assets/images/spermatogenesis.png
   body: >-
-    Biological oscillations, such as segmentation clocks, calcium waves, and cell
-    cycles, are a distinctive and deeply underexplored class of non-equilibrium
-    phenomena: unlike physical waves, they carry no energy of their own but are
-    continuously driven by local energy input.
+    Biological oscillations, such as segmentation clocks, calcium waves, and cell cycles, are a distinctive class of non-equilibrium phenomena: unlike physical waves, they carry no energy of their own but are continuously driven by local energy input. We ask what determines their collective behaviour at the tissue scale: do biological oscillators share universal dynamical properties that transcend the microscopic details? And how do geometry and cell-to-cell variations reshape them? For example, what are the biological functions of phase waves in somitogenesis? Do variations in mechanical properties of the heart tissue make arrhythmia more likely? We address this in two ways: firstly, via generic, minimal models that explore the universal features of coupled oscillatory systems beyond microscopic details, and secondly, via micro-inspired, system-specific models that bridge the gap between theory and experiments.
 
 - title: Morphogenesis of intestinal organoids
   image: /assets/images/organoids.png
   body: >-
-    We use intestinal organoids as a model system to ask how a tissue
-    collectively builds its own three-dimensional shape. We are developing
-    computational methods, based on spherical-harmonic decomposition and
-    heat-kernel curvature, to quantify organoid geometry systematically across
-    large multiplexed datasets and to correlate shape with cell identity over
-    time.
+   We use intestinal organoids as a model system to ask how a tissue collectively builds its own three-dimensional shape. We are developing computational methods, based on spherical-harmonic decomposition and heat-kernel curvature, to quantify organoid geometry systematically across large multiplexed datasets and to correlate shape with cell identity over time. This unbiased, data-driven analysis has already uncovered surprising results: there is not a single deterministic trajectory for crypt formation but rather multiple complementary pathways. We will combine this approach with mechanistic modelling of signaling dynamics and cell-fate decisions on curved, growing surfaces, aiming to understand how a tissue senses its local geometry, and how this geometric information feeds back to steer cell-fate decisions.
 
 - title: Cytoskeleton and active matter
   image: /assets/images/cytokinesis.png
   body: >-
-    Tissues are shaped by the forces that cells generate through their
-    cytoskeleton, a network of filaments and motors that is itself a striking
-    example of active matter, operating far from thermal equilibrium. We use
-    mesoscopic active matter theories to understand how cytoskeletal
-    self-organization produces coherent mechanical behavior, from the actin flows
-    that facilitate division of large embryonic cells, to the emergent elasticity
-    of assemblies of active filaments and colloids.
+    Tissues are shaped by the forces that cells generate through their cytoskeleton, a network of filaments and motors that is itself a striking example of active matter, operating far from thermal equilibrium. We use mesoscopic active matter theories to understand how cytoskeletal self-organization produces coherent mechanical behavior, from the actin flows that facilitate division of large embryonic cells, to the emergent elasticity of assemblies of active filaments and colloids.
