@@ -31,4 +31,6 @@ What happens after the decouping? And why is it necessary? To answer these quest
 
  Together, these findings reveal that meroblastic cleavage is governed not by a single actomyosin-based event but by a sequential interplay between cytoskeletal contraction and cadherin-dependent adhesion, highlighting a mechanism fundamentally distinct from canonical cytokinesis.
 
+ You can find a video of me presenting this work [here](https://www.youtube.com/watch?v=y-5Epa6MS70&t=1758s). 
+
 [^gel]: Active gel theory is a mesoscopic (on scales larger than a single filament) theory of gel-like (between liquid and solid) substances such as the actomyosin cortex. If you are interested to learn beyond what's in the SI of our paper, I personally found [the review from Julicher & Salbreux](https://www.pks.mpg.de/fileadmin/user_upload/MPIPKS/group_pages/BiologicalPhysics/juelicher/HToAM2018.pdf) to be very useful. 
